@@ -43,7 +43,7 @@ btn1Translate.addEventListener('click', function() {
     translationText.innerText = 'O que você tem feito ultimamente?'
     setTimeout(() => {
         translationText.innerHTML = 'Translation'
-    }, 2000);
+    }, 3000);
     })
 
 //LINE 02
@@ -90,7 +90,7 @@ btn2Translate.addEventListener('click', function() {
     translationText.innerText = 'Tenho trabalhado muito. E você?'
     setTimeout(() => {
         translationText.innerHTML = 'Translation'
-    }, 2000);
+    }, 3000);
     })
 
 //LINE 03
@@ -137,7 +137,7 @@ btn3Translate.addEventListener('click', function() {
     translationText.innerText = 'Só tenho relaxado. Estou de férias'
     setTimeout(() => {
         translationText.innerHTML = 'Translation'
-    }, 2000);
+    }, 3000);
     })
 
 //LINE 04
@@ -184,7 +184,7 @@ btn4Translate.addEventListener('click', function() {
     translationText.innerText = 'Ótimo! Tem ido surfar?'
     setTimeout(() => {
         translationText.innerHTML = 'Translation'
-    }, 2000);
+    }, 3000);
     })
 
 //LINE 05
