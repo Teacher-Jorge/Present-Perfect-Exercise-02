@@ -231,5 +231,5 @@ btn5Translate.addEventListener('click', function() {
     translationText.innerText = 'Sim. Todos os dias! Tenho me diverido muito!'
     setTimeout(() => {
         translationText.innerHTML = 'Translation'
-    }, 2000);
+    }, 3000);
     })
