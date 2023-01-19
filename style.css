@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Lato:wght@300&family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bangers';
+    font-size: 30px;
+    color: rgb(221, 0, 210);
+    text-shadow: 1px 1px 2px black;
+    margin: 10px 10px;
+}
+
+.container {
+max-width: 380px;
+margin: 5px auto;
+display: grid;
+grid-template-columns: 90% 10%;
+}
+
+.check {
+    width: 30px;
+    display: flex;
+    visibility:hidden;
+}
+
+.AB {
+    font-size: 22px;
+    color: rgb(192, 0, 182);
+}
+
+.questions {
+    font-family: 'Bangers';
+    font-size: 20px;
+    color: rgb(71, 71, 70);
+    display: flex;
+    justify-content:baseline;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    width: 80px;
+    font-family: 'Bangers';
+    font-size: 20px;
+    padding: 2px 5px;
+    border: none;
+    background-color: rgb(9, 255, 0);
+    color: rgb(223, 184, 255);
+    box-shadow: 1px 1px 5px rgb(146, 140, 140);
+    text-shadow: 1px 1px 2px rgb(97, 97, 97);
+    border-radius: 8px;
+    cursor:pointer
+}
+
+.translate {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    width: 30px;
+    font-family: 'Bangers';
+    font-size: 20px;
+    padding: 2px 5px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 251, 0);
+    box-shadow: 1px 1px 5px rgb(146, 140, 140);
+    text-shadow: 1px 1px 2px rgb(97, 97, 97);
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.translation {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 340px;
+    font-family: 'Bangers';
+    font-size: 20px;
+    padding: 2px 5px;
+    border: none;
+    background-color: red;
+    color: rgb(251, 255, 0);
+    box-shadow: 1px 1px 5px rgb(146, 140, 140);
+    text-shadow: 1px 1px 2px rgb(97, 97, 97);
+    border-radius: 8px;
+}
+
+span {
+    margin: 0px 6px;
+    color: rgb(15, 184, 0);
+}
